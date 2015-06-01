@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="489" height="618"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Version 1.9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5md-1y-75H">
+                    <rect key="frame" x="209" y="551" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="splashbg" translatesAutoresizingMaskIntoConstraints="NO" id="aOK-Ca-wPj">
+                    <rect key="frame" x="159" y="123" width="170" height="424"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="  Copyright (c) 2015 - PT Karya Sakti Nusantara" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="KEg-tv-jJk">
+                    <rect key="frame" x="61" y="580" width="358" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logosplash" translatesAutoresizingMaskIntoConstraints="NO" id="wJg-gI-ev2">
+                    <rect key="frame" x="120" y="285" width="249" height="47"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="hQx-Ga-9LG">
+                    <rect key="frame" x="178" y="35" width="133" height="128"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="aOK-Ca-wPj" secondAttribute="bottom" id="0dR-2e-8mj"/>
+                <constraint firstAttribute="bottom" secondItem="KEg-tv-jJk" secondAttribute="bottom" constant="10" id="9Qn-4H-7vZ"/>
+                <constraint firstAttribute="centerX" secondItem="hQx-Ga-9LG" secondAttribute="centerX" id="9qR-Dy-Reg"/>
+                <constraint firstAttribute="trailing" secondItem="KEg-tv-jJk" secondAttribute="trailing" constant="70" id="KxM-db-JIA"/>
+                <constraint firstAttribute="trailing" secondItem="aOK-Ca-wPj" secondAttribute="trailing" id="LkI-AT-kmV"/>
+                <constraint firstItem="KEg-tv-jJk" firstAttribute="top" secondItem="5md-1y-75H" secondAttribute="bottom" constant="15" id="Nxz-VQ-ugA"/>
+                <constraint firstItem="aOK-Ca-wPj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="P33-QH-KXm"/>
+                <constraint firstAttribute="centerX" secondItem="wJg-gI-ev2" secondAttribute="centerX" id="agS-oO-P9E"/>
+                <constraint firstAttribute="trailing" secondItem="5md-1y-75H" secondAttribute="trailing" constant="210" id="bWZ-6q-Pze"/>
+                <constraint firstItem="KEg-tv-jJk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="61" id="byK-RE-aEH"/>
+                <constraint firstItem="aOK-Ca-wPj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fJD-Ac-KqD"/>
+                <constraint firstAttribute="centerY" secondItem="wJg-gI-ev2" secondAttribute="centerY" id="hx7-aA-dft"/>
+                <constraint firstItem="5md-1y-75H" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="209" id="ldU-TW-daj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="552.5" y="386"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="150" height="150"/>
+        <image name="logosplash" width="268" height="40"/>
+        <image name="splashbg" width="768" height="1024"/>
+    </resources>
+</document>
